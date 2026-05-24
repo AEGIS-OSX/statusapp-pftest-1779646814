@@ -50,18 +50,20 @@ export default function RootLayout({
       </head>
       <body className="layout-body">
         <nav aria-label="Main navigation" className="site-nav">
-          <a href="/" className="nav-wordmark">
-            StatusApp
-          </a>
-          <a href="/about" className="nav-link">
-            About
-          </a>
+          <div className="site-nav-inner">
+            <a href="/" className="site-nav-wordmark">
+              StatusApp
+            </a>
+            <a href="/about" className="site-nav-link">
+              About
+            </a>
+          </div>
         </nav>
 
-        <main className="site-main">{children}</main>
+        <main className="page-main">{children}</main>
 
         <footer className="site-footer">
-          {"\u00A9 2026 ZRS Enterprises."}
+          <p className="site-footer-text">{"\u00A9 2026 ZRS Enterprises."}</p>
         </footer>
       </body>
     </html>
