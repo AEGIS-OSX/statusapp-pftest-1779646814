@@ -66,6 +66,11 @@
   --shadow-low: 0px 1px 2px rgba(20, 20, 22, 0.06);
   --shadow-medium: 0px 6px 18px rgba(20, 20, 22, 0.08);
   --shadow-high: 0px 24px 48px rgba(20, 20, 22, 0.12);
+
+  /* Easing */
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 html,
@@ -210,7 +215,7 @@ body {
   max-width: 480px;
   width: 100%;
   opacity: 0;
-  animation: statusFadeUp 0.4s ease-out 0.1s forwards;
+  animation: statusFadeUp 0.4s var(--ease-out) 0.1s forwards;
 }
 
 @keyframes statusFadeUp {
@@ -291,7 +296,7 @@ body {
   max-width: 640px;
   width: 100%;
   opacity: 0;
-  animation: statusFadeUp 0.4s ease-out 0.1s forwards;
+  animation: statusFadeUp 0.4s var(--ease-out) 0.1s forwards;
 }
 
 @media (prefers-reduced-motion: reduce) {
