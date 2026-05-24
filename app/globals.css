@@ -7,20 +7,20 @@
 /* === StatusApp Design Tokens === */
 
 :root {
-  /* Color tokens — dark theme */
-  --color-bg: #0E0E10;
-  --color-surface: #141416;
-  --color-surface-2: #1B1B1D;
-  --color-border: #262629;
-  --color-muted: #7A7B80;
-  --color-text: #F5F5F6;
-  --color-text-secondary: #A8A8AD;
-  --color-accent: #FF8E60;
-  --color-primary: #7FB6FF;
-  --color-focus: #7FB6FF;
-  --color-status-green: #79E0A9;
-  --color-status-red: #FF8A95;
-  --color-status-yellow: #FFE5A3;
+  /* Color tokens — light theme (default) */
+  --color-bg: #FBFBFB;           /* neutral.z50 */
+  --color-surface: #F5F5F6;      /* neutral.z100 */
+  --color-surface-2: #E9E9EB;    /* neutral.z200 */
+  --color-border: #D1D1D4;       /* neutral.z300 */
+  --color-muted: #7A7A80;        /* neutral.z500 */
+  --color-text: #141416;         /* neutral.z900 */
+  --color-text-secondary: #5C5C62; /* neutral.z600 */
+  --color-accent: #FF6B35;       /* semantic.accent */
+  --color-primary: #0A62FF;      /* semantic.primary */
+  --color-focus: #0A62FF;        /* semantic.primary */
+  --color-status-green: #19A55B; /* semantic.green */
+  --color-status-red: #E12D39;   /* semantic.red */
+  --color-status-yellow: #FFC857; /* semantic.yellow */
 
   /* Typography */
   --font-display: 'Sora', system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial;
@@ -59,6 +59,25 @@
   --shadow-low: 0px 1px 2px rgba(20, 20, 22, 0.06);
   --shadow-medium: 0px 6px 18px rgba(20, 20, 22, 0.08);
   --shadow-high: 0px 24px 48px rgba(20, 20, 22, 0.12);
+}
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0E0E10;             /* dark neutral.z50 */
+    --color-surface: #141416;        /* dark neutral.z100 */
+    --color-surface-2: #1B1B1D;      /* dark neutral.z200 */
+    --color-border: #262629;         /* dark neutral.z300 */
+    --color-muted: #7A7B80;          /* dark neutral.z600 */
+    --color-text: #F5F5F6;           /* dark neutral.z900 */
+    --color-text-secondary: #A8A8AD; /* dark neutral.z700 */
+    --color-accent: #FF8E60;         /* dark semantic.accent */
+    --color-primary: #7FB6FF;        /* dark semantic.primary */
+    --color-focus: #7FB6FF;          /* dark semantic.primary */
+    --color-status-green: #79E0A9;   /* dark semantic.green */
+    --color-status-red: #FF8A95;     /* dark semantic.red */
+    --color-status-yellow: #FFE5A3;  /* dark semantic.yellow */
+  }
 }
 
 html,
