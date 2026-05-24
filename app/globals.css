@@ -75,10 +75,10 @@
 
 html,
 body {
-  overflow-x: clip;
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-body);
+  overflow-x: clip;
   font-size: var(--text-base);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
