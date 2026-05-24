@@ -27,6 +27,8 @@
   /* Accent / primary */
   --color-accent: #FF6B35;
   --color-primary: #0A62FF;
+
+  /* Focus ring — light mode: primary blue */
   --color-focus: #0A62FF;
 
   /* Typography */
@@ -71,6 +73,25 @@
   --ease-out: cubic-bezier(0, 0, 0.2, 1);
   --ease-in: cubic-bezier(0.4, 0, 1, 1);
   --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark mode — remaps semantic tokens including --color-focus */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0E0E10;
+    --color-surface: #141416;
+    --color-border: #1B1B1D;
+    --color-text: #F5F5F6;
+    --color-text-secondary: #A8A8AD;
+    --color-muted: #4F5056;
+    --color-success: #79E0A9;
+    --color-error: #FF8A95;
+    --color-warning: #FFE5A3;
+    --color-accent: #FF8E60;
+    --color-primary: #7FB6FF;
+    /* Focus ring — dark mode: lighter blue for contrast on dark surfaces */
+    --color-focus: #7FB6FF;
+  }
 }
 
 /* Task 2: html and body base rules */
