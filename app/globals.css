@@ -283,6 +283,10 @@ body {
 }
 
 @media (max-width: 480px) {
+  .site-nav-inner {
+    padding: var(--space-4) var(--space-4);
+  }
+
   .status-panel {
     padding: var(--space-8) var(--space-6);
   }
