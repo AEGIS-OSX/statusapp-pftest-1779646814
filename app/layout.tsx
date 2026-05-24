@@ -3,13 +3,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "StatusApp — System status",
+    default: "StatusApp \u2014 System status",
     template: "%s | StatusApp",
   },
   description:
     "StatusApp displays a single, instrument-style status panel to verify the AEGIS pipeline. Static content only; not a monitoring service.",
   openGraph: {
-    title: "StatusApp — System status",
+    title: "StatusApp \u2014 System status",
     description:
       "StatusApp displays a single, instrument-style status panel to verify the AEGIS pipeline. Static content only; not a monitoring service.",
     siteName: "StatusApp",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "StatusApp — System status",
+    title: "StatusApp \u2014 System status",
     description:
       "StatusApp displays a single, instrument-style status panel to verify the AEGIS pipeline. Static content only; not a monitoring service.",
   },
@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <head>
-        {/* Google Fonts — font-display: swap is set via display=swap in the URL */}
+        {/* Google Fonts with font-display: swap via URL param */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -49,14 +49,13 @@ export default function RootLayout({
         />
       </head>
       <body
-        className="layout-body"
         style={{
           backgroundColor: "var(--color-bg)",
           color: "var(--color-text)",
           fontFamily: "var(--font-body)",
         }}
       >
-        <header className="site-nav" role="banner">
+        <header>
           <div className="site-nav-inner">
             <a
               href="/"
@@ -75,7 +74,7 @@ export default function RootLayout({
 
         <main className="page-main">{children}</main>
 
-        <footer className="site-footer" role="contentinfo">
+        <footer>
           <p className="site-footer-text">{"\u00A9 2026 ZRS Enterprises."}</p>
         </footer>
       </body>
