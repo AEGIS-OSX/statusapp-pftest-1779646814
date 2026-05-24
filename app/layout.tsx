@@ -63,7 +63,7 @@ export default function RootLayout({
         <main className="page-main">{children}</main>
 
         <footer className="site-footer">
-          {"\u00A9 2026 ZRS Enterprises."}
+          © 2026 ZRS Enterprises.
         </footer>
       </body>
     </html>
