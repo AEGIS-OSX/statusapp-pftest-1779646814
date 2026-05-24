@@ -3,13 +3,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "StatusApp — System status",
+    default: "StatusApp \u2014 System status",
     template: "%s | StatusApp",
   },
   description:
     "StatusApp displays a single, instrument-style status panel to verify the AEGIS pipeline. Static content only; not a monitoring service.",
   openGraph: {
-    title: "StatusApp — System status",
+    title: "StatusApp \u2014 System status",
     description:
       "StatusApp displays a single, instrument-style status panel to verify the AEGIS pipeline. Static content only; not a monitoring service.",
     siteName: "StatusApp",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "StatusApp — System status",
+    title: "StatusApp \u2014 System status",
     description:
       "StatusApp displays a single, instrument-style status panel to verify the AEGIS pipeline. Static content only; not a monitoring service.",
   },
@@ -63,7 +63,7 @@ export default function RootLayout({
         <main className="page-main">{children}</main>
 
         <footer className="site-footer">
-          © 2026 ZRS Enterprises.
+          \u00a9 2026 ZRS Enterprises.
         </footer>
       </body>
     </html>
