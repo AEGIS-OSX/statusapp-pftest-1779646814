@@ -56,7 +56,7 @@ export default function RootLayout({
         }}
       >
         <header>
-          <div className="site-nav-inner">
+          <nav aria-label="Primary navigation" className="site-nav-inner">
             <a
               href="/"
               className="site-nav-wordmark focus-ring"
@@ -64,12 +64,10 @@ export default function RootLayout({
             >
               StatusApp
             </a>
-            <nav aria-label="Primary navigation">
-              <a href="/about" className="site-nav-link focus-ring">
-                About
-              </a>
-            </nav>
-          </div>
+            <a href="/about" className="site-nav-link focus-ring">
+              About
+            </a>
+          </nav>
         </header>
 
         <main className="page-main">{children}</main>
