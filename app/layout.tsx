@@ -48,32 +48,20 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap"
         />
       </head>
-      <body
-        style={{
-          backgroundColor: "var(--color-bg)",
-          color: "var(--color-text)",
-          fontFamily: "var(--font-body)",
-        }}
-      >
-        <header>
-          <nav aria-label="Primary navigation" className="site-nav-inner">
-            <a
-              href="/"
-              className="site-nav-wordmark focus-ring"
-              aria-label="StatusApp home"
-            >
-              StatusApp
-            </a>
-            <a href="/about" className="site-nav-link focus-ring">
-              About
-            </a>
-          </nav>
-        </header>
+      <body className="layout-body">
+        <nav aria-label="Main navigation" className="site-nav">
+          <a href="/" className="nav-wordmark">
+            StatusApp
+          </a>
+          <a href="/about" className="nav-link">
+            About
+          </a>
+        </nav>
 
-        <main className="page-main">{children}</main>
+        <main className="site-main">{children}</main>
 
-        <footer>
-          <p className="site-footer-text">{"\u00A9 2026 ZRS Enterprises."}</p>
+        <footer className="site-footer">
+          {"\u00A9 2026 ZRS Enterprises."}
         </footer>
       </body>
     </html>
