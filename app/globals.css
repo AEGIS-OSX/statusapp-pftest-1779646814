@@ -125,7 +125,7 @@ body {
   outline-offset: 2px;
 }
 
-/* Screen-reader only utility */
+/* Screen-reader only utility — position/clip/overflow rules */
 .sr-only {
   position: absolute;
   width: 1px;
