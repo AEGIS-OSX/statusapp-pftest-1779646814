@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "StatusApp — System status" },
+  title: "StatusApp — System status",
   description:
     "StatusApp displays a single, instrument-style status panel to verify the AEGIS pipeline. Static content only; not a monitoring service.",
 };
@@ -21,6 +21,8 @@ export default function Home() {
             All Systems Operational
           </h1>
         </div>
+
+        <p className="status-subheadline">Minimal verification view for the AEGIS pipeline.</p>
 
         <p className="status-timestamp">Last checked: just now</p>
 
