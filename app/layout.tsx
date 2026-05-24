@@ -34,7 +34,28 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
-      <body className="layout-body">
+      <head>
+        {/* Google Fonts — font-display: swap is set via display=swap in the URL */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap"
+        />
+      </head>
+      <body
+        className="layout-body"
+        style={{
+          backgroundColor: "var(--color-bg)",
+          color: "var(--color-text)",
+          fontFamily: "var(--font-body)",
+        }}
+      >
         <header className="site-nav" role="banner">
           <div className="site-nav-inner">
             <a
