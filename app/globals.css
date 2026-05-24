@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --color-primary: #111111;
-  --color-accent: #111111;
-  --color-bg: #FFFFFF;
-  --color-text: #111111;
-  --color-muted: #666666;
+  --color-primary: #0A62FF;
+  --color-accent: #FF6B35;
+  --color-bg: #141416;
+  --color-text: #141416;
+  --color-muted: #5C5C62;
   --color-border: #E5E5E5;
   --space-base: 8px;
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 16px;
-  --font-display: 'Playfair Display', Georgia, serif;
+  --font-display: 'IBM Plex Sans', Georgia, serif;
   --font-body: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
