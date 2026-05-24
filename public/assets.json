@@ -1,31 +1,31 @@
 {
   "hero": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/statusapp-pftest-1779646814/cleo/1779647426368-hero.png",
+    "alt": "Hero image: centered single-panel instrument display on a zinc-950 matte field, showing a semantic green status pill reading 'All systems operational' and a grounded timestamp beneath. Fits the creati",
     "width": 1920,
     "height": 1080
   },
   "feature_1": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/statusapp-pftest-1779646814/cleo/1779647559702-feature_1.png",
+    "alt": "Feature 1 image: tight close-up on the rectangular status pill with a mono numeric label and a small filled status dot, set on a zinc-950 matte field. Emphasizes numeric emphasis and legible instrumen",
     "width": 800,
     "height": 600
   },
   "feature_2": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/statusapp-pftest-1779646814/cleo/1779647735778-feature_2.png",
+    "alt": "Feature 2 image: overhead instrument cluster showing three status pills (operational green, degraded amber, down red) on a zinc-950 panel. Demonstrates the semantic state system while keeping the pale",
     "width": 800,
     "height": 600
   },
   "feature_3": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/statusapp-pftest-1779646814/cleo/1779647897703-feature_3.png",
+    "alt": "Feature 3 image: the panel slightly above center with a clear timestamp line and minimal top-left navigation chevron, emphasizing measured negative space and readable microcopy. Matches the creative d",
     "width": 800,
     "height": 600
   },
   "social_proof": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/statusapp-pftest-1779646814/cleo/1779648043018-social_proof.png",
+    "alt": "Abstract hand-drawn vector illustration: a single lit node in semantic green #19A55B with a thin pulse line on a zinc-950 matte field. Fits the About page requirement for a minimal, instrument-like vi",
     "width": 1200,
     "height": 800
   }
